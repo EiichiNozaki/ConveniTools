@@ -25,6 +25,9 @@ ext {
 dependencies {
 	developmentOnly 'com.vaadin:vaadin-dev'
 	implementation 'com.vaadin:vaadin-spring-boot-starter'
+	implementation 'com.vaadin:vaadin-charts-flow'
+	implementation 'dev.langchain4j:langchain4j:1.14.1'	// LangChain4jのコアライブラリ
+	implementation 'dev.langchain4j:langchain4j-open-ai:1.14.1' // LangChain4j で OpenAI APIを使用するためのライブラリ	
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConvenitoolsApplication {
+public class ConveniToolsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConvenitoolsApplication.class, args);
+		SpringApplication.run(ConveniToolsApplication.class, args);
 	}
 
 }
